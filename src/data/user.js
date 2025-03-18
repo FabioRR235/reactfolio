@@ -1,24 +1,21 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Portfólio",
+		name: "Fábio Rabello",
+		email: "fabiorabello235@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/FabioRR235",
+		instagram: "https://www.instagram.com/f4bio.rr/",
+		linkedin: "https://www.linkedin.com/in/fabio-rabello-7478b3232/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Desenvolvedor Web ",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Tenho conhecimento em desenvolvimento de interfaces responsivas, utilizando boas práticas de versionamento e frameworks como Bootstrap e Tailwind. Também possuo experiência com WordPress, criando e personalizando sites de forma eficiente. Estudo desenvolvimento desde 2020 e já acumulo mais de um ano de experiência profissional. Estou sempre buscando novos desafios para aprimorar minhas habilidades e desenvolver soluções inovadoras.",
 	},
 
 	about: {
