@@ -1,4 +1,7 @@
 .all-projects-container {
+	border-radius: 32px;
+	min-height: 575px;
+	background-color: #fafafa;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
@@ -19,4 +22,65 @@
 	.all-projects-project {
 		width: calc(100% / 2);
 	}
+}
+
+.pagination-controls {
+	gap: 10px;
+	padding-right: 35px;
+	display: flex;
+	justify-content: end;
+	width: 100%;
+	align-items: center;
+}
+
+.current-page {
+	border: 1px solid;
+	border-radius: 50%;
+	padding: 8px;
+}
+
+.hidden {
+	display: none !important;
+	transition: 0.9s;
+}
+.cta,
+.cta-fade-in {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.cta span,
+.cta-fade-in span {
+	padding-bottom: 7px;
+	letter-spacing: 4px;
+	font-size: 14px;
+	padding-right: 15px;
+	text-transform: uppercase;
+}
+
+.cta svg {
+	transform: translateX(-8px);
+	transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+	transform: translateX(0);
+}
+
+.cta:active svg {
+	transform: scale(0.9);
+}
+
+.cta-fade-in svg {
+	transform: translateX(8px);
+	transition: all 0.3s ease;
+}
+
+.cta-fade-in:hover svg {
+	transform: translateX(0);
+}
+
+.cta-fade-in:active svg {
+	transform: scale(0.9);
 }

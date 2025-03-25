@@ -1,4 +1,10 @@
 @import "../../../data/styles.css";
+
+.social-container {
+	display: flex;
+	justify-content: center;
+}
+
 .social,
 .email-wrapper {
 	display: flex;
